@@ -1,103 +1,148 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="max-w-screen-lg mx-auto px-4 py-12">
+      {/*Intro text / Heading */}
+      <section className="text-center mb-16 bg-radial from-blue-100/80 via-sky-100/40 to-[var(--color-background)] to-70% rounded-t-2xl py-16">
+        <h1 className="text-3xl md:text-5xl font-bold">
+          Styrk arbejdsglæde, trivsel og kommunikation
+        </h1>
+        <p className="mt-4 text-lg max-w-xl mx-auto">
+          Få indblik i de temear, som Carsten Sommerskov sætter fokus på i sine
+          foredrag
+        </p>
+      </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+      {/* Choose a topic --> 4 boxes */}
+      <section className="mb-20">
+        <h2 className="text-2xl font-bold mb-6">Vælg et emne</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Link
+            href="/positivitet"
+            className="block border-2 rounded-lg border-[var(--color-secondary)] p-6 hover:shadow-md transition hover:text-[var(--color-hover)]"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            <h3 className="text-xl font-semibold">Positivitet</h3>
+            <p className="mt-2">Skab glæde og overskud</p>
+          </Link>
+
+          <Link
+            href="/kommunikation"
+            className="block border-2 rounded-lg border-[var(--color-secondary)] p-6 hover:shadow-md transition hover:text-[var(--color-hover)]"
           >
-            Read our docs
+            <h3 className="text-xl font-semibold">God kommunikation</h3>
+            <p className="mt-2">eksempel tekst</p>
+          </Link>
+
+          <Link
+            href="/udbytte"
+            className="block border-2 rounded-lg p-6 border-[var(--color-secondary)] hover:shadow-md transition hover:text-[var(--color-hover)]"
+          >
+            <h3 className="text-xl font-semibold">
+              Hvilket udbytte vil I have?
+            </h3>
+            <p className="mt-2">eksempel tekst</p>
+          </Link>
+
+          <Link
+            href="/fa-det-hele"
+            className="block border-2 rounded-lg border-[var(--color-secondary)]  p-6 hover:shadow-md transition hover:text-[var(--color-hover)]"
+          >
+            <h3 className="text-xl font-semibold">Få det hele</h3>
+            <p className="mt-2">eksempel tekst</p>
+          </Link>
+        </div>
+      </section>
+
+      {/* About Carsten */}
+      <section className="bg-[var(--color-primary)] p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center mb-16 py-8">
+        <Image
+          src="/images/carsten.jpg"
+          alt="Carsten Sommerskov"
+          width={550}
+          height={550}
+          className="w-50 h-40 rounded-md object-cover"
+        />
+        <div>
+          <Link
+            href="/om-carsten"
+            className="transition hover:text-[var(--color-hover)]"
+          >
+            <h2 className="text-2xl font-bold mb-4">Om Carsten Sommerskov</h2>
+            <p className="">
+              Carsten Sommerskov har mere end 30 års erfaring i undervisning i
+              positiv tænkning, arbejdsglæde, trivsel og succes. Han har
+              undervist på mere end 2500 arbejdspladser og et for samlet antal
+              deltagere over 250.000 mennesker i USA, Danmark, Norge, Sverige,
+              Holland, Gibraltar og Spanien.
+            </p>
+          </Link>
+        </div>
+      </section>
+
+      {/* References */}
+      <section className="mb-8 py-8">
+        <h2 className="text-2xl font-bold mb-8">Udvalgte referencer</h2>
+
+        {/* Categories grid */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+          {/* Offentlige */}
+          <div>
+            <h3 className="text-md font-semibold">Offentlige</h3>
+            <ul className="list-disc pl-6 text-sm space-y-1">
+              <li>DSB</li>
+              <li>Retten i Kolding</li>
+              <li>Hillerød Kommune</li>
+            </ul>
+          </div>
+          {/* Private */}
+          <div>
+            <h3 className="text-md font-semibold">Private</h3>
+            <ul className="list-disc pl-6 text-sm space-y-1">
+              <li>ALD Bilsalg</li>
+              <li>Creativ Company</li>
+              <li>Teleworks</li>
+            </ul>
+          </div>
+          {/* Foreninger */}
+          <div>
+            <h3 className="text-md font-semibold">Foreninger</h3>
+            <ul className="list-disc pl-6 text-sm space-y-1">
+              <li>3f Grenå</li>
+              <li>Furesø erhvervsforening</li>
+              <li>Skole og samfund</li>
+            </ul>
+          </div>
+
+          {/* Indernationele */}
+          <div>
+            <h3 className="text-md font-semibold">Internationalt</h3>
+            <ul className="list-disc pl-6 text-sm space-y-1">
+              <li>ALS - Tórshavn</li>
+              <li>Nuuk TV</li>
+              <li>Suderø</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mb-12 text-right">
+          <a
+            href="/referencer"
+            className="text-sm hover:underline hover:text-[var(--color-hover)] transition font-medium italic"
+          >
+            Se alle referencer →
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+        <h3 className="text-lg font-semibold mb-2 text-center">
+          Det siger deltagerne
+        </h3>
+        <p className="text-center bg-center mb-4 italic">
+          Carsten er en god, spændende, dynamisk, humoristisk og fængslende
+          underviser med stor erfaring og gennemslagskraft.
+        </p>
+      </section>
+    </main>
   );
 }
