@@ -92,7 +92,7 @@ export default function FaDetHelePage() {
       </section>
 
       <section className="mb-16">
-        <h3 className="text-xl font-semibold mb-2">Mindre sygefravær</h3>
+        <h2 className="text-xl font-semibold mb-2">Mindre sygefravær</h2>
         <p className="mb-4">
           Et enkelt foredrag kan nedbringe sygefraværet. En stor arbejdsplads
           trænede som et af emnerne sammenhold. De fik 38% mindre sygefravær, og
@@ -106,6 +106,7 @@ export default function FaDetHelePage() {
           <iframe
             src="https://www.youtube.com/watch?v=Njnpppo1w1o"
             title="Mindre sygefravær efter foredrag"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className="w-full h-full mb-4"
           />
@@ -128,7 +129,7 @@ export default function FaDetHelePage() {
       </section>
 
       <section className="mb-16">
-        <h3 className="text-xl font-semibold mb-2">Team Spirit</h3>
+        <h2 className="text-xl font-semibold mb-2">Team Spirit</h2>
         <p className="mb-4">
           Carsten Sommerskov har udviklet en enkel og effektiv metode til at
           skabe den helt rigtige ånd:

@@ -24,7 +24,6 @@ export default function Home() {
             className="block border-2 rounded-lg border-[var(--color-secondary)] p-6 hover:shadow-md transition hover:text-[var(--color-hover)]"
           >
             <h3 className="text-xl font-semibold">Positivitet</h3>
-            <p className="mt-2">Skab glæde og overskud</p>
           </Link>
 
           <Link
@@ -32,7 +31,6 @@ export default function Home() {
             className="block border-2 rounded-lg border-[var(--color-secondary)] p-6 hover:shadow-md transition hover:text-[var(--color-hover)]"
           >
             <h3 className="text-xl font-semibold">God kommunikation</h3>
-            <p className="mt-2">eksempel tekst</p>
           </Link>
 
           <Link
@@ -42,7 +40,6 @@ export default function Home() {
             <h3 className="text-xl font-semibold">
               Hvilket udbytte vil I have?
             </h3>
-            <p className="mt-2">eksempel tekst</p>
           </Link>
 
           <Link
@@ -50,7 +47,6 @@ export default function Home() {
             className="block border-2 rounded-lg border-[var(--color-secondary)]  p-6 hover:shadow-md transition hover:text-[var(--color-hover)]"
           >
             <h3 className="text-xl font-semibold">Få det hele</h3>
-            <p className="mt-2">eksempel tekst</p>
           </Link>
         </div>
       </section>
@@ -58,7 +54,7 @@ export default function Home() {
       {/* About Carsten */}
       <section className="bg-[var(--color-primary)] p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center mb-16 py-8">
         <Image
-          src="/images/carsten.jpg"
+          src="/Images/carsten.jpg"
           alt="Carsten Sommerskov"
           width={550}
           height={550}
