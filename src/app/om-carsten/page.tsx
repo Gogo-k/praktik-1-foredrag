@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import CheckList from "@/components/CheckList";
+import { contactList } from "@/data/checkmarkLists";
 
 export default function Om() {
   return (
@@ -29,7 +32,7 @@ export default function Om() {
         </p>
       </section>
 
-      <section className="flex flex-col gap-6 mb-12 items-center">
+      <section className="flex flex-col gap-6 mb-12 items-start">
         <div>
           <h3 className="font-semibold text-lg mb-1">Uddannelse</h3>
           <p>
@@ -79,6 +82,21 @@ export default function Om() {
             lande: 2 tysktalende, en svensktalende, en norsktalende, en
             lydansvarlig samt en administrativ.
           </p>
+        </div>
+
+        <div className="">
+          <h3 className="font-semibold text-lg mb-2">Ring eller skriv</h3>
+          <div className="mb-4">
+            <CheckList items={contactList} />
+          </div>
+          <div className="flex items-center gap-2 mb-4">
+            <PhoneIcon className="h-5 w-5" />
+            <span>Carsten Sommerskov: +45 20 13 10 41</span>
+          </div>
+          <div className="flex items-center gap-2 mb-4">
+            <EnvelopeIcon className="h-5 w-5" />
+            <span>vaekst.vaekst.dk</span>
+          </div>
         </div>
       </section>
     </main>
