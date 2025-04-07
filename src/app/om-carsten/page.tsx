@@ -2,6 +2,11 @@ import Image from "next/image";
 import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import CheckList from "@/components/CheckList";
 import { contactList } from "@/data/checkmarkLists";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Om Carsten Sommerskov",
+};
 
 export default function Om() {
   return (
@@ -12,7 +17,7 @@ export default function Om() {
           alt="Carstene Sommerskov"
           width={500}
           height={500}
-          className="rounded-lg object-cover mx-auto mb-2"
+          className="w-md h-md rounded-lg object-cover mx-auto mb-2"
         ></Image>
         <h2 className="text-3xl md:text-5xl font-bold">Carsten Sommerskov</h2>
         <p className="font-medium text-lg">

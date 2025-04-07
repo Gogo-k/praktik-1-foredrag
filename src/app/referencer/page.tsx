@@ -1,5 +1,10 @@
 import ExpandableBox from "@/components/ExpandableBox";
 import referencerData from "@/data/referencerData";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Referencer",
+};
 
 export default function Referencer() {
   return (

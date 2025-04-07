@@ -8,6 +8,11 @@ import {
 } from "@/data/checkmarkLists";
 import CheckList from "@/components/CheckList";
 import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Udbytte",
+};
 
 export default function Udbytte() {
   return (
@@ -16,7 +21,7 @@ export default function Udbytte() {
         Hvilket udbytte vil i have?
       </h1>
 
-      <section className="mb-16 grid md:grid-cols-2 gap-4 md:gap-0 items-start">
+      <section className="mb-16 grid md:grid-cols-2 gap-4 items-start">
         <div>
           <h2 className="text-xl font-semibold mb-2">
             Vi har haft foredrag før - men ...
@@ -36,7 +41,7 @@ export default function Udbytte() {
           alt=""
           width={450}
           height={450}
-          className="rounded-r-lg object-cover"
+          className="w-sm h-sm rounded-r-lg object-cover"
         ></Image>
       </section>
 
@@ -60,20 +65,20 @@ export default function Udbytte() {
           </Link>
         </p>
 
-        <div className="grid md:grid-cols-2 gap-4 md:gap-0 items-center">
+        <div className="grid md:grid-cols-2 gap-4 items-center">
           <Image
             src={"/Images/udbytte/udbytte2.jpg"}
             alt=""
             width={450}
             height={450}
-            className="rounded-l-lg object-cover"
+            className="w-sm h-sm rounded-l-lg object-cover"
           ></Image>
           <Image
             src={"/Images/udbytte/udbytte3.jpg"}
             alt=""
             width={450}
             height={450}
-            className="rounded-r-lg object-cover"
+            className="w-sm h-sm rounded-r-lg object-cover"
           ></Image>
         </div>
       </section>
@@ -86,7 +91,7 @@ export default function Udbytte() {
           <CheckList items={tankList} />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-4 md:gap-0 items-start">
+        <div className="grid md:grid-cols-2 gap-4 items-start">
           <div>
             <p>
               I får et super inspirerende foredrag hvor I får mange
@@ -108,7 +113,7 @@ export default function Udbytte() {
             alt=""
             width={450}
             height={450}
-            className="rounded-r-lg object-cover"
+            className="w-sm h-sm rounded-r-lg object-cover"
           ></Image>
         </div>
       </section>
@@ -119,7 +124,7 @@ export default function Udbytte() {
           <CheckList items={posVirkerList} />
         </div>
 
-        <div className=" grid md:grid-cols-2 gap-4 md:gap-0 items-start">
+        <div className=" grid md:grid-cols-2 gap-4 items-start">
           <p>
             Først og fremmest skal man forstå, hvordan holdningerne fungerer, og
             hvordan de er opstået. Det giver motivationen for at gøre noget ved
@@ -134,7 +139,7 @@ export default function Udbytte() {
             alt=""
             width={450}
             height={450}
-            className="rounded-r-lg object-cover"
+            className="w-sm h-sm rounded-r-lg object-cover"
           ></Image>
         </div>
       </section>
@@ -195,13 +200,13 @@ export default function Udbytte() {
         </ol>
       </section>
 
-      <section className=" grid md:grid-cols-2 gap-4 md:gap-0 items-start">
+      <section className=" grid md:grid-cols-2 gap-4 md:gap-4 items-start">
         <Image
           src={"/Images/udbytte/udbytte6.jpg"}
           alt=""
           width={450}
           height={450}
-          className="rounded-lg object-cover"
+          className="w-sm h-sm rounded-lg object-cover"
         ></Image>
         <div className="">
           <h2 className="text-xl font-semibold mb-2">Ring eller skriv</h2>

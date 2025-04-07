@@ -1,5 +1,9 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Få det hele",
+};
 export default function FaDetHelePage() {
   return (
     <main className="max-w-screen-lg mx-auto px-4 py-12">
@@ -19,13 +23,13 @@ export default function FaDetHelePage() {
         </p>
       </section>
 
-      <section className="mb-16 grid md:grid-cols-2 gap-4 md:gap-0 items-center">
+      <section className="mb-16 flex flex-col-reverse md:flex-row gap-4 md:gap-16 items-center">
         <Image
           src={"/Images/det-hele/fa1.jpg"}
           alt=""
           width={450}
           height={450}
-          className="rounded-l-lg object-cover"
+          className="w-sm h-sm rounded-l-lg object-cover"
         ></Image>
         <div>
           <h2 className="text-xl font-semibold mb-2">
@@ -62,13 +66,13 @@ export default function FaDetHelePage() {
         </p>
       </section>
 
-      <section className="mb-16 grid md:grid-cols-2 gap-4 md:gap-0 items-center">
+      <section className="mb-16 flex flex-col-reverse md:flex-row gap-4 md:gap-16 items-center">
         <Image
           src={"/Images/det-hele/fa2.jpg"}
           alt=""
           width={450}
           height={450}
-          className="rounded-l-lg object-cover"
+          className="w-sm h-sm rounded-l-lg object-cover"
         ></Image>
         <div>
           <h2 className="text-xl font-semibold mb-2">Arbejdsglæde</h2>
@@ -102,16 +106,6 @@ export default function FaDetHelePage() {
           ekstra gang, inden han eller hun sygemeldte sig.
         </p>
 
-        <div className=" rounded-lg overflow-hidden">
-          <iframe
-            src="https://www.youtube.com/watch?v=Njnpppo1w1o"
-            title="Mindre sygefravær efter foredrag"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            className="w-full h-full mb-4"
-          />
-        </div>
-
         <div className=" space-y-1">
           <p className="font-semibold">
             Her er resultater fra konkrete danske arbejdspladser:
@@ -143,7 +137,7 @@ export default function FaDetHelePage() {
             alt=""
             width={450}
             height={450}
-            className="rounded-l object-cover mb-4"
+            className="w-sm h-sm rounded-l object-cover mb-4"
           />
         </div>
 
@@ -163,7 +157,7 @@ export default function FaDetHelePage() {
             alt=""
             width={450}
             height={450}
-            className="rounded-l object-cover justify-center mb-4"
+            className="w-sm h-sm rounded-l object-cover justify-center mb-4"
           />
         </div>
 
