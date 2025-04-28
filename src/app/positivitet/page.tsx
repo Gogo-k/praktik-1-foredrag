@@ -24,8 +24,8 @@ export default function positivitet() {
             Det er svært at bevare gnisten, optimismen og arbejdsglæden i en
             tid, hvor alle har travlt og mange er stressede. De sidste par år
             har budt på virkelige udfordringer. Diverse kriser er blevet dagens
-            orden. Ekstreme prisstigninger, manglende eller forsinkende
-            leveringer, stigende renter m.m. Men et er sikkert: Dem der er
+            orden. Ekstreme prisstigninger, manglende eller forsinkede
+            leveringer , stigende renter m.m. Men et er sikkert: Dem der er
             positive, konstruktive og optimistiske klarer sig bedst!
           </p>
         </div>
@@ -51,7 +51,7 @@ export default function positivitet() {
             Hvordan klarer vi forandringer bedst muligt?
           </h2>
           <p>
-            Hvis vi bliver sure og stressede går det aldrig. Så vi har brug for
+            Hvis vi bliver sure og stressede, går det aldrig. Så vi har brug for
             at være konstruktive. Mangel på konstruktivitet giver et negativt
             liv. Konstruktivitet giver et positivt liv og et godt arbejdsmiljø.
           </p>
@@ -63,7 +63,7 @@ export default function positivitet() {
           <h2 className="text-xl font-semibold mb-2">Det virker ikke!?</h2>
           <p>
             Erfaring: &quot;Vi var til et foredrag, der skabte begejstring, men
-            efter kort tid var det væk.&quot; Dette foredrag er ikke en af den
+            efter kort tid var det væk.&quot; Dette foredrag er ikke en af de
             slags. Det er et lynkursus med en spændende og humoristisk
             foredragsholder, det er sjovt. Det giver mange gode indsigter, men
             det er ikke bare et par timers pep. Det er meget konkrete værktøjer,
@@ -121,7 +121,7 @@ export default function positivitet() {
           </div>
           <div className="flex items-center gap-2 mb-4">
             <EnvelopeIcon className="h-5 w-5" />
-            <span>vaekst.vaekst.dk</span>
+            <span>vaekst@vaekst.dk</span>
           </div>
         </div>
       </section>

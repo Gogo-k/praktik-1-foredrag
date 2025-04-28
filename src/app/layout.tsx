@@ -10,7 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Firma Foredrag",
+  title: "Vækst AS skaber vaekst - Firma Foredrag",
+  description:
+    "Carsten Sommeskov har over 30 års erfaring som foredragsholder . Positivitet der virker og holder.",
 };
 
 export default function RootLayout({

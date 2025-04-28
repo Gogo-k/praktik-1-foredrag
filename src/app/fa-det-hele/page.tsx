@@ -16,7 +16,8 @@ export default function FaDetHelePage() {
           Når kommunikationen bliver bedre stiger positiviteten.
           <br /> Når positiviteten stiger bliver samarbejdet bedre.
           <br />
-          Når samabejdet bliver bedre øges trivslen. <br />
+          Når samarbejdet bliver bedre øges trivslen.
+          <br />
           Når trivslen stiger øges arbejdsglæden. <br />
           Når arbejdsglæden stiger mindskes sygefraværet. <br />
           osv.
@@ -61,7 +62,7 @@ export default function FaDetHelePage() {
           Et godt samarbejde karakteriseres af viden om de andres evner og
           kompetencer. <br /> Viden om og interesse for de andres arbejde.
           <br /> Omsorg for hinandens trivsel og velbefindende.
-          <br /> En god stemning, En god kommunikation, positivitet,
+          <br /> En god stemning, en god kommunikation, positivitet,
           arbejdsglæde .......
         </p>
       </section>
@@ -82,7 +83,7 @@ export default function FaDetHelePage() {
             Hvordan er omgangstonen? <br /> Hvor tit roser medarbejderne
             lederne?
             <br /> Hvor ofte påskønner lederne medarbejderne? <br />
-            Er samarbejdet i top.
+            Er samarbejdet i top?
             <br /> Tænker alle på hinanden?
             <br /> Er team spirit i top eller er det &quot;os mod de
             andre&quot;?
@@ -143,7 +144,7 @@ export default function FaDetHelePage() {
 
         <p className="mb-4">
           Carsten Sommerskov viser jer i løbet af sit foredrag en række
-          eksempler i form af små videoklip og stillbilleder på hvordan, det er
+          eksempler i form af små videoklip og stillbilleder på hvordan det er
           gjort på andre arbejdspladser. <br /> Mens han er der, vælger I en
           ikke-chef som tovholder og en gruppe for hvert stikord og så starter
           processen et par dage senere. <br /> Tovholderen og dennes gruppe skal
@@ -177,7 +178,7 @@ export default function FaDetHelePage() {
           lavet &quot;hole in one&quot; i en turnering. <br /> Journalisten
           sagde: &quot;Hvor var du dog fantastisk heldig, du må være
           forfærdeligt glad&quot; <br /> Han svarede: &quot;Ja, fornyligt har
-          jeg lagt mærke til - At jo mere jeg træner, jo heldigere bliver
+          jeg lagt mærke til - at jo mere jeg træner, jo heldigere bliver
           jeg&quot;
         </p>
       </section>

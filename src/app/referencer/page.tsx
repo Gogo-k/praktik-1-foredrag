@@ -14,7 +14,7 @@ export default function Referencer() {
       </h1>
       <p className="text-md mb-6 italic">
         {"(referencelisterne opdateres ikke, fordi der stort set intet nyt er at tilføje," +
-          "og jeg føler det anmasende at spørge om tilladelse, når det ikke har noget formål. " +
+          "og jeg finder det anmassende at spørge om tilladelse, når det ikke har noget formål. " +
           "Jeg svarer gerne mundtligt på, hvor jeg har undervist på det seneste.)"}
       </p>
 

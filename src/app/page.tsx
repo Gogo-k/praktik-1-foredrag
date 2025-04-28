@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,9 +11,22 @@ export default function Home() {
           Styrk arbejdsglæde, trivsel og kommunikation
         </h1>
         <p className="mt-4 text-lg max-w-xl mx-auto">
-          Få indblik i de temear, som Carsten Sommerskov sætter fokus på i sine
+          Få indblik i de temaer, som Carsten Sommerskov sætter fokus på i sine
           foredrag
         </p>
+
+        <div className="flex flex-col items-center mt-20">
+          <iframe
+            className="w-full max-w-[720px] aspect-video"
+            src="https://www.youtube.com/embed/PHjGHpUfwKo?si=iNqUAG2gtWJeLQiQ"
+            title="YouTube video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+          <p className="mt-2 text-lg">Direktør Kim Axelsen anbefaler</p>
+        </div>
       </section>
 
       {/* Choose a topic --> 4 boxes */}
@@ -67,11 +81,11 @@ export default function Home() {
           >
             <h2 className="text-2xl font-bold mb-4">Om Carsten Sommerskov</h2>
             <p className="">
-              Carsten Sommerskov har mere end 30 års erfaring i undervisning i
-              positiv tænkning, arbejdsglæde, trivsel og succes. Han har
-              undervist på mere end 2500 arbejdspladser og et for samlet antal
-              deltagere over 250.000 mennesker i USA, Danmark, Norge, Sverige,
-              Holland, Gibraltar og Spanien.
+              Jeg har mere end 30 års erfaring i undervisning i positiv
+              tænkning, arbejdsglæde, trivsel og succes. Jeg har undervist på
+              mere end 2500 arbejdspladser og for et samlet antal deltagere på
+              over 250.000 mennesker i USA, Danmark, Norge, Sverige, Holland,
+              Giraltar og Spanien.
             </p>
           </Link>
         </div>

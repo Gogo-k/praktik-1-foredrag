@@ -42,13 +42,13 @@ export default function Kommunikation() {
       </section>
 
       <section className="mb-16 items-start">
-        <h2 className="text-xl font-semibold mb-2"> Påstand</h2>
+        <h2 className="text-xl font-semibold mb-2">Påstand</h2>
         <p>
           Som regel skyldes dårlig kommunikation ikke et spørgsmål om ond vilje,
           men snarere om forglemmelser, fejlfortolkninger og lignende. Tænk
-          engang over at mere end hvert andet ord, der kommer ud munden på os,
-          kan tolkes på mindst to måder, og vi tror at den ene måde, som vi selv
-          opfatter det på, er den rigtige.
+          engang over at mere end hvert andet ord, der kommer ud af munden på
+          os, kan tolkes på mindst to måder, og vi tror at den ene måde, som vi
+          selv opfatter det på, er den rigtige.
         </p>
       </section>
 
@@ -58,8 +58,8 @@ export default function Kommunikation() {
           <p>
             Tag et eksempel: &quot;Hvorfor gjorde du det på den måde?&quot; kan
             det tolkes som: Interesse? Kritik? Nysgerrighed? Kropssproget er
-            flertydigt. Er personen på dette billede Irriteret? Tænksom? Har han
-            glemt noget? Hovedpine? eller?
+            flertydigt. Er personen på dette billede irriteret? tænksom? har han
+            glemt noget?
           </p>
         </div>
         <Image
@@ -139,7 +139,7 @@ export default function Kommunikation() {
           Kunne det tænkes, at vi når vi kender hinanden, så er det i
           virkeligheden de holdninger og de meninger vi har om hinanden, der
           styrer tolkningerne? Kan to kolleger have den stik modsatte holdning
-          til en tredie kollega, som de begge kender lige godt. Kan den ene
+          til en tredje kollega, som de begge kender lige godt. Kan den ene
           mene, at der er dårlig kommunikation og meget negativitet? Kan den
           anden mene, at der er god kommunikation og meget positivitet?
         </p>
@@ -220,7 +220,7 @@ export default function Kommunikation() {
         </div>
         <div className="flex items-center gap-2 mb-4">
           <EnvelopeIcon className="h-5 w-5" />
-          <span>vaekst.vaekst.dk</span>
+          <span>vaekst@vaekst.dk</span>
         </div>
       </div>
     </main>
